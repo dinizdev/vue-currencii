@@ -2,8 +2,8 @@
   <div>
     <!-- Conteúdo da sua página -->
 
-    <footer class="flex flex-col justify-center items-center text-sm bg-green-600  text-white p-2 fixed bottom-0 w-full">
-      <nav class="flex items-center justify-center gap-2 w-full max-w-xl mx-auto">
+    <footer class="flex flex-col justify-center items-center max-h-screen text-sm bg-green-600  text-white p-2 ">
+      <nav class="flex items-center justify-center gap-2">
         <ul class="flex p-4 grid-cols-2 gap-4 underline">
           <li v-for="(link, index) in links" :key="index">
             <a :href="link.link">{{ link.title }}</a>
