@@ -10,7 +10,8 @@
           </li>
         </ul>
       </nav>
-      <p class="flex w-full bg-gray-900 p-2 justify-center items-end text-white font-semibold">All rights reserved 2023
+      <p class="flex w-full bg-gray-900 p-2 justify-center items-end text-white font-semibold">Todos os Direitos
+        Reservados 2023
         &copy;
         Currencii
       </p>

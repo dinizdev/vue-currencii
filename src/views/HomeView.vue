@@ -1,17 +1,27 @@
 <template>
   <div class="p-10 flex flex-col items-center justify-center">
-    <h1 class="text-3xl font-semibold">Currency Now</h1>
+    <h1 class="text-4xl p-5 font-semibold">Plataforma Currencii</h1>
+    <h2 class="text-md max-w-2xl"> <span class="text-green-700 font-bold text-xl">Bem-vindo ao Currencii - Sua
+        Plataforma de
+        Conversão e
+        Cotação em Tempo
+        Real!</span>
+
+      Descubra uma nova dimensão de facilidade e precisão ao realizar conversões e acompanhar cotações atualizadas de
+      moedas estrangeiras. Nosso serviço intuitivo e confiável oferece uma solução abrangente para suas necessidades de
+      conversão de moeda, fornecendo informações precisas e em tempo real para tornar suas transações e planejamento
+      financeiro mais ágeis e eficientes.</h2>
   </div>
   <main class="w-screen flex items-center justify-center">
     <div class="grid grid-cols-2 p-5 justify-center items-center max-w-xl">
       <h2 class="font-bold text-gray-950">
         <span :class="{ 'flashing-dot': isFlashingEuro }"
-          style="color: green; width: 120px; height: 120px; font-size: 2em;">&bull;</span>
+          style="color: blue; width: 120px; height: 120px; font-size: 2em;">&bull;</span>
         Euro: {{ euro.value }}
       </h2>
       <h2 class="font-bold text-gray-950">
         <span :class="{ 'flashing-dot': isFlashingPound }"
-          style="color: blue; width: 120px; height: 120px; font-size: 2em;">&bull;</span>
+          style="color: red; width: 120px; height: 120px; font-size: 2em;">&bull;</span>
         Libra: {{ pound.value }}
       </h2>
       <h2 class="font-semibold">Última Atualização Euro: {{ formattedDateEuro }}</h2>

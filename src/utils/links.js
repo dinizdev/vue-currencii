@@ -1,10 +1,10 @@
 const links = [
   {
-    title: 'Home',
+    title: 'Página Inicial',
     link: '/'
   },
   {
-    title: 'Convert',
+    title: 'Conversor',
     link: '/convert'
   },
   {
@@ -12,15 +12,15 @@ const links = [
     link: '/login'
   },
   {
-    title: 'Register',
+    title: 'Registro',
     link: '/register'
   },
   {
-    title: 'About',
+    title: 'Sobre',
     link: '/about'
   },
   {
-    title: 'Contact',
+    title: 'Contato',
     link: '/contact'
   }
 ]
